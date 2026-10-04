@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.hero {
+    min-height: 670px;
+    background-color: #008b7f;
+    color: white;
+    padding: 0 76px;
+}
+
+
+
+
+.navbar {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 46px;
+    font-weight: 70;
+}
+
+.nav-links {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+
+    gap: 45px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 60;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #b8ddd9;
+}
+
+.dropdown span {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+
+
+.hero-content {
+    min-height: 505px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.1;
+
+    margin-bottom: 39px;
+}
+
+.hero-text p {
+    
+
+    font-size: 14px;
+    line-height: 1.5;
+
+    color: #a9d9d5;
+
+    margin-bottom: 45px;
+}
+
+   
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+
+
+
+.get-started {
+    text-decoration: none;
+    color: white;
+
+    font-size: 15px;
+    font-weight: 400;
+
+    padding: 20px 60px;
+
+    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 40px;
+
+    background-color: rgba(255,255,255,0.08);
+
+    transition: 0.3s;
+}
+
+.get-started:hover {
+    background-color: rgba(255,255,255,0.18);
+}
+
+
+
+
+.watch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.play {
+    width: 49px;
+    height: 49px;
+
+    border: 3px solid #83cbc5;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 17px;
+    color: #83cbc5;
+
+    transition: 0.3s;
+}
+
+.watch:hover .play {
+    background-color: #83cbc5;
+    color: #008b7f;
+}
+
+
+
+.hero-image img {
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 60px;
+
+    height: auto;
+}
+
+.play-btn {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play-btn span {
+    color: white;
+    font-size: 32px;
+    margin-left: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+/* Cards */
+.features {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+    padding: 10px 0 0 0;
+}
+
+.card {
+    width: 25%;
+    height: 308px;
+    background-color: #008f83;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 105px;
+
+    color: #d7f0ed;
+
+    border-radius: 0 0 10px 10px;
+
+    transition: 0.3s;
+}
+
+
+/* Icons */
+.card i {
+    font-size: 48px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+
+/* Titles */
+.card h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+}
+
+
+/* Hover */
+.card:hover {
+    background-color: #007a70;
+    transform: translateY(-5px);
+}
+
+
+/* About Us */
+.about {
+    text-align: center;
+    margin-top: 180px;
+}
+
+.about h1 {
+    font-size: 50px;
+    color: #003b52;
+    font-weight: bold;
+}
+

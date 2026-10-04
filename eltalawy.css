@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 500px;
+
+    background: linear-gradient(
+        110deg,
+        #ed1c24,
+        #c52268,
+        #7138a8
+    );
+
+    color: white;
+}
+
+nav {
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 7%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+nav a:hover {
+    color: #6143a6;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* nav a:hover {
+    color: black;
+} */
+
+nav a:hover svg {
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+
+
+
+
+
+
+
+.menu {
+    display: flex;
+    gap: 55px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.hero-content {
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.hero-content p {
+    font-size: 14px;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+
+
+.play-button {
+    width: 70px;
+    height: 70px;
+
+    margin: 30px auto;
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 0 10px rgba(255,255,255,0.05);
+
+}
+ 
+.play-button:hover{
+    background-color: rgb(22, 223, 59);
+}
+
+.play-button:hover i{
+    color: #ed1c24;
+    
+    
+}
+
+.play-button{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.play-button svg{
+    color: rgb(214, 17, 17);
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+
+
+.experts {
+    height: 250px;
+
+    background: rgb(243, 237, 237);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding-top: 85px;
+}
+
+.experts h2 {
+    font-size: 30px;
+    color: #27313d;
+}
+
+.experts h2 span {
+    color: #df2948;
+}
